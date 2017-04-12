@@ -1,0 +1,100 @@
+/* tag that applies to everything on the main page - puts in our background, font, font size, and text color, making sure the background is for 
+the full page and does not change location no matter where the user scrolls */
+html{
+background: url(new_background.png);
+background-size: cover;
+color: rgb(54,69,79);
+font-family: 'Josefin Sans', sans-serif;
+font-size: 18px;
+background-attachment: fixed;
+}
+
+/* centers our navigation options, putting them in blocks together - still a little uncertain how this all works */
+nav {
+	display: block;
+	text-align: center;
+	float: center;
+	color: rgb(54,69,79);
+	font-size: 24px;
+}
+
+/* for all "a" properties (including "footer a", link, visited, and hover all are different instances of how a link will look, and
+except for when user mouse is over them its all the same */
+a:link {
+	color: rgb(54,69,79);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(54,69,79);
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: red;
+	text-decoration: none;
+	padding: 2px 2px 1px 2px;
+
+}
+
+nav h3 {
+	display: inline;
+	font-size: 24px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* gives margins to the page, and makes a white background over the whole text box, but with an opacity of 0.6, its mostly see-through*/
+.main_picks {
+	margin-left: 48px; 
+	margin-right: 48px;
+	background-color: rgba(255,255,255, 0.6);
+	color: black;
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 5px; /* makes the edges of the box around the text curved */
+}
+
+.main_picks h3 {
+	text-align: center;
+}
+
+/* very similar to the navigation, with the box properties of the main picks*/
+footer {
+	margin-left: 48px;
+	margin-right: 48px;
+	display: block;
+	text-align: center;
+	float: center;
+	background-color: rgba(255,255,255, 0.6);
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+footer a:link {
+	color: rgb(54,69,79);
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: rgb(54,69,79);
+	text-decoration: none;
+}
+
+footer a:hover {
+	background-color: red;
+	text-decoration: none;
+}
+
+footer h3 {
+	display: inline;
+	color: rgb(54,69,79);
+}
+
+footer h5 {
+	color: rgb(54,69,79);
+}
