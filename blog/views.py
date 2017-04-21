@@ -12,8 +12,8 @@ def about_page(request):
 def scottie_page(request):
     return render(request, 'blog/scottie_page.html', {})
 
-#def alex_page(request):
-#    return render(request, 'blog/alex_page.html', {})
+def alex_page(request):
+    return render(request, 'blog/alex_page.html', {})
 
-#def payton_page(request):
-#    return render(request, 'blog/payton_page.html', {})
+def payton_page(request):
+    return render(request, 'blog/payton_page.html', {})

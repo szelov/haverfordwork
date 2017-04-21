@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    <title>Best Music to Listen to</title>
+  <link rel="stylesheet" href="{% static 'css/alex.css' %}"> <! for the css handler>
+</head>
+
+<body>
+    
+  <nav>
+    <h1>High Noon Music</h1>
+     <h2>Alex's Page</h2>
+	 <h3><a href="{% url 'main_page' %}">High Noon Home</a></h3> <!url format changed for Django>
+	 <br>
+	 <br>
+    <a href="{% url 'payton_page' %}">Payton</a>
+    <h3>|</h3>
+  	<b>Alex</b>
+    <h3>|</h3>
+  	<a href="{% url 'scottie_page' %}">Scottie</a>
+  </nav>
+  <br>
+
+<div class="Intro">
+    
+<h2>Welcome</h2>
+<p>Hello, and welcome to my webpage about my favorite music. My goal is expose you to the greatest music of all time form manny different genres.<br>
+I divided the music I listen to into 4 genres. Rock and Roll which will consist of music from the modern era of Rock<br>
+with bands like Coldplay all the back to the 70's and 80's with bands like ACDC and Guns and Roses. The second genre is Old School Rap, consisting of rap songs that were released begore 2000. You can expect to see artis like 2Pac, Biggie and the Wu-Tang Clan. Third we have Modern Day Rap.
+You can expect to find artist like eminem, Jay Z, Lil Wayne and more.
+And Last we have Electronic Dance Music also know as EDM. Here you can expect to find Djs like the Chainsmoker, Dj Snake, Major Lazer and many more.</p>
+</div>
+
+    <div class="images">
+    <img src="{% static "css/NWA.jpg" %}" alt="NWA" height=30% width=33%/> <!image format changed for Django>
+    <img src="{% static "css/Stadium-Arcadium.jpg" %}" alt="Red Hot Chili Pepers" height=30% width=33%/>
+    <img src="{% static "css/biggie_smalls.jpg" %}" alt="Biggie Smalls" height=375px width=33%/>
+    </div>
+    
+    <div class="genres">
+    <h2><a href="Boratto_old_school_rap.html" target="_blank"> Old School Rap</a></h2>
+    
+    <h2><a href="Boratto_rock_and_roll.html" target="_blank">Rock and Roll</a></h2>
+    
+    <h2><a href="Boratto_modern_rap.html" target="_blank"> Modern Day Rap</a></h2>
+    
+    <h2><a href="Boratto_EDM_Music.html" target="_blank">Electronic Dance Music</a></h2>
+    </div>
+<hr width="50%" color= black>
+<div class="About_me">
+<h3>About me</h3>
+<img src="{% static "css/IMG_0100.JPG" %}" alt="Me and John Nelligan" height="37%" width="37%" />
+<h5>A picture of me and my friend John Nelligan(on the left) and me at the Patriots game.</h5>
+<p>I am a junior in highschool. I attend the all boys Haverford School on the main line in PA.<br>
+</p>
+</div>
+
+<footer>
+    <h5>High Noon could be considered the most mediocre music project website of this century.</h5>
+    <a href="{% url 'about_page' %}">About</a>
+    <h3>|</h3>
+    <a href="{% url 'payton_page' %}">Payton</a>
+    <h3>|</h3>
+    <b>Alex</b>
+    <h3>|</h3>
+    <a href="{% url 'scottie_page' %}">Scottie</a>
+</footer>
+
+</body>
+</html>

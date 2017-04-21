@@ -1,0 +1,96 @@
+/* the * references the entire html file paytonpage.html. It contains parameters for
+the color of font, the family of the font, and settings for the background image of 
+the page.*/
+* {
+	color: #32CD32;
+	font-family: Josefine Sans,sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;  
+}
+
+/* this section references the nav in html. Display: block; sets the position of the 
+buttons to link different pages to go horizontal in order. Text-align and float center
+the buttons.*/
+nav {
+	display: block;
+	text-align: center;
+	float: center;
+	font-size: 20px;
+}
+
+/* references the class Newlink, which is the button to go to news on the album*/
+.Newslink {
+	margin-top: auto;
+}
+
+/* references the class imgcontainer and centers them in the page*/
+.imgcontainer {
+	text-align: center;
+}
+
+/* references both nav and h3 and sets their display as inline, or next to each other
+and sets their font-size to equal*/
+nav h3 {
+	display: inline;
+	font-size: 20px;
+}
+
+/* references all first headers and aligns the header test to the center of the page as
+well as setting the font size to 60 pixels*/
+h1 {
+	text-align: center;
+	font-size: 60px
+}
+
+/* references all ordered list and places their text at the left of the page*/
+ol {
+	text-align: left;
+}
+
+/* references all second headers and sets the size of the font to 40 pixels*/
+h2 {
+	font-size: 40px;
+}
+
+/* sets the font size of all third headers to 25 pixels*/
+h3 {
+	font-size: 25px;
+}
+
+/* the anchor to the link clears the link of all properties, such as a change in
+font, size, or grammar*/
+a:link {
+	text-decoration: none;
+}
+
+/* the anchor to the link clears the link of all properties, such as a change in
+font, size, or grammar*/
+a:visited {
+	text-decoration: none;
+}
+
+/* the anchor to the link clears the link of all properties, such as a change in
+font, size, or grammar*/
+a:hover {
+	text-decoration: none;
+}
+
+/* sets the text of all headers to center on the page*/
+h1, h2, h3 {
+	text-align: center;
+}
+
+/* all images on the page will display in block form, as well as center in the page
+because of auto margins to the left and right of the image*/
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* sets the display of the youtube video to block and centers the image on the page*/
+iframe {
+	display: block;
+	margin: 0 auto;
+}

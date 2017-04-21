@@ -14,9 +14,9 @@
   	<h1><a href="{% url 'main_page' %}">High Noon Home</a></h1> <! url for the homepage>
     <b>About</b>
     <h3>|</h3>
-    <a href="http://127.0.0.1:8000/alex">Payton</a> <!tag for after the initial url>
+    <a href="{% url 'payton_page' %}">Payton</a> <!tag for after the initial url>
     <h3>|</h3>
-  	<a href="http://127.0.0.1:8000/alex">Alex</a>
+  	<a href="{% url 'alex_page' %}">Alex</a>
     <h3>|</h3>
   	<a href="{% url 'scottie_page' %}">Scottie</a>
   </nav>
@@ -30,9 +30,9 @@
   <h5>High Noon could be considered the most mediocre music project website of this century.</h5>
   <b>About</b>
   <h3>|</h3>
-  <a href="http://127.0.0.1:8000/payton">Payton</a>
+  <a href="{% url 'payton_page' %}">Payton</a>
   <h3>|</h3>
-  <a href="http://127.0.0.1:8000/alex">Alex</a>
+  <a href="{% url 'alex_page' %}">Alex</a>
   <h3>|</h3>
   <a href="{% url 'scottie_page' %}">Scottie</a>
 </footer>

@@ -5,17 +5,17 @@
 <html>
 <head>
   <title>High Noon Music</title> <!- below has the links to the CSS page for this file and the file with the font we use for the website>
-  <link rel="stylesheet" href="{% static 'css/main.css' %}"> <! for the css handler>
+  <link rel="stylesheet" href="{% static 'css/main.css' %}"> <! for the css handler in Django>
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
 <body>
   <h1>High Noon Music</h1>
   <nav> <!- navigation bar, with links to each individual page>
-    <a href="payton">Payton</a>
+    <a href="{% url 'payton_page' %}">Payton</a> <!change website format for Django>
     <h3>|</h3>
-  	<a href="alex">Alex</a>
+  	<a href="{% url 'alex_page' %}">Alex</a>
     <h3>|</h3>
-  	<a href="scottie">Scottie</a>
+  	<a href="{% url 'scottie_page' %}">Scottie</a>
   </nav>
   <br>
   <div class=main_picks> <!- ordered lists with the two types of music we are posting for the website>
@@ -50,13 +50,13 @@
   <br>
   <footer> <!- similar to the navigation bar, but with smaller fonts and also links to an "About" page>
     <h5>High Noon could be considered the most mediocre music project website of this century.</h5>
-    <a href="about">About</a> <! url for the aboutpage after the OG url title>
+    <a href="{% url 'about_page' %}">About</a>
     <h3>|</h3>
-    <a href="payton">Payton</a>
+    <a href="{% url 'payton_page' %}">Payton</a>
     <h3>|</h3>
-    <a href="alex">Alex</a>
+    <a href="{% url 'alex_page' %}">Alex</a>
     <h3>|</h3>
-    <a href="scottie">Scottie</a>
+    <a href="{% url 'scottie_page' %}">Scottie</a>
   </footer>
 </body>
 </html>

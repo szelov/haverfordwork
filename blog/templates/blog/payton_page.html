@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+  <head>
+    <!- style allows for the background image to be inserted by way of a url>
+    <style>
+    body {
+    	background-image: url("http://images.fineartamerica.com/images-medium-large-5/1-philadelphia-skyline-at-night-black-and-white-bw-jon-holiday.jpg")
+    }
+    </style>
+    <!- the title of the page is inside the head and is then linked to its own CSS file>
+    <title>Payton's Page</title>
+  <link rel="stylesheet" href="{% static 'css/payton.css' %}"> <! for the css handler>
+  </head>
+  <body>
+    <!- the h1 gives the large writing at the top of the webpage>
+    <h1>Payton's Page</h1>
+    <!- nav includes buttons with access to the other personal pages, as well as the home pages, if all are downloaded to use as a local host site>
+    <nav>
+  	  <a href="{% url 'main_page' %}">High Noon Home</a>
+  	  <h3>|</h3>
+      <b>Payton</b>
+      <h3>|</h3>
+  	  <a href="{% url 'alex_page' %}">Alex</a>
+  	  <h3>|</h3>
+  	  <a href="{% url 'scottie_page' %}">Scottie</a>
+    </nav>
+    <!- the div contains the class songfavoritesimgs. This class contains three smaller divs with the class imgcontainer, each of which holds a different image of an album cover>
+    <div class="songfavoritesimgs">
+      <div class="imgcontainer">
+        <img src="http://images.genius.com/7681ea2f2fc8ed4d170a43b5a5eb5527.1000x1000x1.jpg" alt="Culture by Migos" height=400/>
+      </div>
+      <div class="imgcontainer">
+        <img src="https://i1.sndcdn.com/artworks-000164666747-vw6nqr-t500x500.jpg" alt="Coloring Book by Chance the Rapper" height=400/>
+      </div>
+      <div class="imgcontainer">
+        <img src="http://hiphopdx-production.s3.amazonaws.com/2016/12/Chief-Keef-Two-Zero-One-Seven-cover-art.jpg" alt="Two Zero One Seven by Chief Keef" height=400/>
+      </div>
+    </div>
+    <!- h2 is the second header of the page, which is smaller as the consequent to the first header>
+    <h2>
+      Album of the Week
+    </h2>
+    <!- the image has a src, which links the image to an image on the internet as the album of the week. The width of the container for the image is set to 500>
+    <img src="http://hiphopdx-production.s3.amazonaws.com/2016/12/Big-Sean-I-Decided-album-cover-art.jpg" width="500">
+    <!- the div Newslink contains a button that is underlined which says "I Decided News," and links to the most recent news about the album on Google.>
+    <div class="Newslink">
+    <h3><a href="https://www.google.com/search?biw=1400&bih=804&tbm=nws&q=i+decided+album&oq=i+decided+album&gs_l=serp.3...9769.12208.0.12449.15.14.0.0.0.0.258.1852.0j7j3.10.0....0...1c.1.64.serp..9.1.183...0.LqK0_cv3u1o" target="_blank"><u>I Decided News</u></a></h3>
+    </div>
+    <!- paragraph contains a description of the album of the week>
+    <p><i>I Decided</i> by Big Sean, is one of the largest releases so far in 2017. Big Sean, an artist attempting to compete with leaders in the rap industry, combines hypnotic beats with flowing lyrics to prove his worth to the game. The album considers Sean's meaning in life and his thankfulness for his family, specifically his mother.</p>
+    <!- the h3 header is the third smallest header on the page. It follows the h2 header and is smaller because it is below and less significant than the h2>
+    <h3>Favorite Songs from the Album</h3>
+    <!- the ordered list containg the three favorite songs of the album, accompanied by number bullets to, for lack of a better term, order them.>
+    <ol>
+      <li>"Jump Out the Window"</li>
+      <li>"Halfway Off the Balcony"</li>
+      <li>"Owe Me"</li>
+    </ol>
+    <h2>
+      Music Video of the Week
+    </h2>
+    <!- iframe is used to insert a youtube video in an html file. The height and width are set according to youtube's standards, as well as the frameborder, and the border is able to expand to full screen if chosen.>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QSVyyykaEOo" frameborder="0" allowfullscreen></iframe>
+    <h3>Kate Tempest, "Europe is Lost"</h3>
+    <p>"Europe is Lost" discusses the destruction of modern day industry, politics, and culture in relation to the future of the world</p>
+  </body>
+</html>

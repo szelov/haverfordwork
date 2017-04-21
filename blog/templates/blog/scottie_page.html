@@ -11,10 +11,10 @@
 <body>
   <h1>Scottie's Page</h1>
   <nav>
-  	<h1><a href="{% url 'main_page' %}">High Noon Home</a></h1>
-    <a href="http://127.0.0.1:8000/payton">Payton</a>
+  	<h1><a href="{% url 'main_page' %}">High Noon Home</a></h1> <!change website format for Django>
+    <a href="{% url 'payton_page' %}">Payton</a>
     <h3>|</h3>
-  	<a href="http://127.0.0.1:8000/alex">Alex</a>
+  	<a href="{% url 'alex_page' %}">Alex</a>
     <h3>|</h3>
   	<b>Scottie</b>
   </nav>
@@ -67,9 +67,9 @@
     <h5>High Noon could be considered the most mediocre music project website of this century.</h5>
     <a href="{% url 'about_page' %}">About</a>
     <h3>|</h3>
-    <a href="http://127.0.0.1:8000/payton">Payton</a>
+    <a href="{% url 'payton_page' %}">Payton</a>
     <h3>|</h3>
-    <a href="http://127.0.0.1:8000/alex">Alex</a>
+    <a href="{% url 'alex_page' %}">Alex</a>
     <h3>|</h3>
     <b>Scottie</b>
   </footer>

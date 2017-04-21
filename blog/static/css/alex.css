@@ -1,0 +1,104 @@
+.Title{
+	text-align: center;
+}
+
+.genres{
+	text-align: center;
+}
+
+.Intro{
+	margin-right: 48px;
+	margin-left: 48px;
+}
+
+.images{
+	margin-left: 48px;
+	margin-right: 48px;
+}
+
+nav {
+	display: block;
+	text-align: center;
+	float: center;
+	color: rgb(54,69,79);
+	font-size: 24px;
+	border: solid black;
+}
+
+a:link {
+	color: rgb(54,69,79);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(54,69,79);
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: red;
+	text-decoration: none;
+}
+
+nav h3 {
+	display: inline;
+	font-size: 24px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.About_me{
+	text-align: center;
+}
+
+footer {
+	margin-left: 48px;
+	margin-right: 48px;
+	display: block;
+	text-align: center;
+	float: center;
+	background-color: rgba(255,255,255, 0.6);
+	padding: 5px;
+	border-radius: 5px;
+	border: solid black;
+}
+
+footer a:link {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+footer a:hover {
+	background-color: red;
+	text-decoration: none;
+}
+
+footer h3 {
+	display: inline;
+	color: rgb(0,0,0);
+}
+
+footer h5 {
+	color: rgb(0,0,0);
+}
+
+a:link {
+	color: rgb(0,0,0);
+}
+
+a:visited {
+	color: rgb(0,0,0);
+}
+
+a:hover {
+	background-color: red;
+}
+
