@@ -11,7 +11,7 @@
 <body>
   <h1>Scottie's Page</h1>
   <nav>
-  	<h1><a href="http://127.0.0.1:8000/">High Noon Home</a></h1>
+  	<h1><a href="{% url 'main_page' %}">High Noon Home</a></h1>
     <a href="http://127.0.0.1:8000/payton">Payton</a>
     <h3>|</h3>
   	<a href="http://127.0.0.1:8000/alex">Alex</a>
@@ -65,7 +65,7 @@
 </body>
  <footer>
     <h5>High Noon could be considered the most mediocre music project website of this century.</h5>
-    <a href="http://127.0.0.1:8000/about">About</a>
+    <a href="{% url 'about_page' %}">About</a>
     <h3>|</h3>
     <a href="http://127.0.0.1:8000/payton">Payton</a>
     <h3>|</h3>
