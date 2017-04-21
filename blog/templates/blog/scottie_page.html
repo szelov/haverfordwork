@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+
+{% load staticfiles %}
+
+<html>
+<head>
+  <title>High Noon Music</title>
+    <link rel="stylesheet" href="{% static 'css/scottie.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+  <h1>Scottie's Page</h1>
+  <nav>
+  	<h1><a href="http://127.0.0.1:8000/">High Noon Home</a></h1>
+    <a href="http://127.0.0.1:8000/payton">Payton</a>
+    <h3>|</h3>
+  	<a href="http://127.0.0.1:8000/alex">Alex</a>
+    <h3>|</h3>
+  	<b>Scottie</b>
+  </nav>
+   <div class="my_choices">
+   	 <div class="my_photos">
+   	 	<img src="{% static "css/big_sean.jpg" %}" alt="Big Sean's new album" height=200/> <!change image src format to suit django>
+   	 	<img src="{% static "css/j_cole.jpg" %}" alt="J. Cole's new album" height=200/>
+   	 	<img src="{% static "css/bassy.jpg" %}" alt="Marc Bassy's new album" height=200/>
+     </div>
+     <h2><a href="https://www.youtube.com/watch?v=g87IDAsz2fA" target="_blank">Jump Out the Window</a></h2>
+     <p> <i>Jump Out the Window</i> comes fresh off of Sean's Newest album, "I Decided".
+     <h2><a href="https://www.youtube.com/watch?v=gdk9tJz7eik" target="_blank">4 Your Eyez Only</a></h2>
+     <p> <i>4 Your Eyez Only</i> is Cole's last song on his newest album, and the one I believe touches on the bigest points Cole attempts to make in his 10 song masterpiece. This song winds up the tale of what is to be believed as the life and death of another man in Fayetteville, NC. Cole explains how this man had a child when he was 13 and because of the gang lives around him he was forced to sell drugs to provide for his family. The song concludes with the idea that no matter how much wrong you do in this life, this man was still good because he loved his daughter.</p>
+     <h2><a href="https://www.youtube.com/watch?v=wwJ3ICsg0Lo" target="_blank">Last One I Love</a></h2>
+     <p><i>Last One I Love</i> is off of Bassy's newest mixtape. A song that can be described as an easy jam.</p>
+     <h3>Song of the Week</h3>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/DglxPGLxJPQ" frameborder="0" allowfullscreen id="video"></iframe>
+    <img src="{% static "css/chance_rapper.jpg" %}" valt="Chance" height=400 id="Chance"/>
+     </div>
+     <div class="favorite_artist">
+     <h2>My Favorite Artist</h2>
+     <p>Chance the Rapper is breaking the music industry. He is 23 and has no record deal. But he does not want a deal; Chance makes all of his money off of merchandise and concert tickets. This young artist has a unique jazz and hip-hop sound that makes his music stand out as much as his personality does.</p>
+     <div class="OG">
+      <span class="Pack">
+     <a href="http://www.hotnewhiphop.com/chance-the-rapper-back-to-school-pack-mixtape.103601.html" target="_blank" id="Pack">
+     <img src="{% static "css/school_pack.jpeg" %}" alt="First" height=200/>
+     </a>
+   </span>
+   <span class="Good_enough">
+     <a href="http://www.hotnewhiphop.com/chance-the-rapper-good-enough-mixtape.103600.html" target="_blank" id="Good_enough">
+     	<img src="{% static "css/good_enough.jpg" %}" alt="Good" height=200/>
+     </a>
+   </span>
+   </div>
+   <div class="newjawn">
+    <span class="10Day">
+     <a href="http://www.hotnewhiphop.com/chance-the-rapper-10day-mixtape.54479.html" target="_blank" id="10Day">
+      <img src="{% static "css/10_day.jpeg" %}" alt"10 Day" height=200/>
+     </a>
+   </span>
+   <span class="Acid">
+     <a href="http://www.datpiff.com/Chance-The-Rapper-Acid-Rap-mixtape.483826.html" target="_blank" id="Acid">
+      <img src="{% static "css/acidrap.jpg" %}" alt"Acid Rap" height=200/>
+     </a>
+   </span>
+   </div>
+  </div>
+</body>
+ <footer>
+    <h5>High Noon could be considered the most mediocre music project website of this century.</h5>
+    <a href="http://127.0.0.1:8000/about">About</a>
+    <h3>|</h3>
+    <a href="http://127.0.0.1:8000/payton">Payton</a>
+    <h3>|</h3>
+    <a href="http://127.0.0.1:8000/alex">Alex</a>
+    <h3>|</h3>
+    <b>Scottie</b>
+  </footer>
+</html>

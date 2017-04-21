@@ -1,0 +1,58 @@
+html{
+color: rgb(255,165,0);
+font-family: 'Josefin Sans', sans-serif;
+font-size: 18px;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  float: center;
+  color: rgb(255,165,0);
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+nav a:link, footer a:link {
+  color: rgb(255,165,0);
+  text-decoration: none;
+}
+
+nav a:visited, footer a:visited {
+  color: rgb(255,165,0);
+  text-decoration: none;
+}
+
+nav a:hover, footer a:hover {
+  background-color: red;
+  text-decoration: none;
+  padding: 2px 2px 1px 2px;
+
+}
+
+nav h3 {
+  display: inline;
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+footer {
+  margin-left: 48px;
+  margin-right: 48px;
+  display: block;
+  text-align: center;
+  float: center;
+}
+
+footer h3 {
+  display: inline;
+}

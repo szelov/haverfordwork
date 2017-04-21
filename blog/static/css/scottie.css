@@ -1,0 +1,127 @@
+html{
+	color: rgb(255,165,0);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	background-color: black;
+}
+
+nav {
+	display: block;
+	text-align: center;
+	float: center;
+	color: rgb(255,165,0);
+	font-size: 24px;
+	margin-bottom: 6px;
+}
+
+nav a:link, footer a:link {
+	color: rgb(255,165,0);
+	text-decoration: none;
+}
+
+nav a:visited, footer a:visited {
+	color: rgb(255,165,0);
+	text-decoration: none;
+}
+
+nav a:hover, footer a:hover {
+	background-color: red;
+	text-decoration: none;
+	padding: 2px 2px 1px 2px;
+}
+
+nav h3 {
+	display: inline;
+	font-size: 24px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.my_photos {
+	text-align: center;
+	float: right;
+	margin-left: auto;
+}
+
+.my_choices {
+	margin-left: 48px;
+	margin-right: 48px;
+}
+
+.my_choices a {
+	color: rgb(255,165,0);
+}
+
+.favorite_artist {
+	background: url(Sox_day.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 600px;
+	padding-top: 50px;
+	font-size: 25px;
+}
+
+.favorite_artist h2 {
+	margin-left: 48px;
+}
+
+.favorite_artist p {
+	margin-left: 48px;
+}
+
+#Chance #video {
+	display: inline-block;
+}
+
+.OG {
+	display: block;
+	float: right;
+	margin-left: 48px;
+	margin-right: 48px;
+	padding-top: 50px;
+}
+
+.newjawn {
+	display: block;
+	float: left;
+	margin-left: 48px;
+	margin-right: 48px;
+	padding-top: 50px;
+}
+
+.Pack, .Good_enough {
+	margin: auto;
+	display: block;
+	float: right;
+	padding-left: 10px;
+}
+
+.10Day, .Acid {
+	margin: auto;
+	display: block;
+}
+
+.Acid {
+	float: right;
+	padding-left: 10px;
+}
+
+.10Day {
+	float: left;
+}
+
+footer {
+	text-align: center;
+	float: center;
+}
+
+footer h3 {
+	display: inline;
+}
+
+footer h5 {
+	color: rgb(255,165,0);
+}
