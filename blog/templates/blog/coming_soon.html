@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    <title>Best EDM Music</title>
+  <link rel="stylesheet" href="{% static 'css/soon.css' %}"> <! for the css handler>
+</head>
+<body>
+<nav>
+<h2>Greatest Rap Songs of the Modern Era</h2>
+  	<h4><a href="{% url 'main_page' %}">High Noon Home</a></h4>
+    <a href="{% url 'payton_page' %}">Payton</a>
+    <h3>|</h3>
+  	<a href="{% url 'alex_page' %}">Alex</a>
+    <h3>|</h3>
+  	<a href="{% url 'scottie_page' %}">Scottie</a>
+  </nav>
+  <br>
+  
+    <div class="Photo">
+    <img src="{% static "css/island.png" %}" alt="Coming Soon" width="1158" height="275" >
+    </div>
+
+
+</body>
+</html>

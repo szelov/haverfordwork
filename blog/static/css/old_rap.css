@@ -1,0 +1,120 @@
+html {
+	background-color: black 
+}
+
+.Title {
+text-align: center;
+color: rgb(255,165,0);
+font-family: 'Josefin Sans', sans-serif;
+font-size: 18px;
+border: 1px solid white;
+}
+
+.All_Songs{
+
+}
+
+
+.images{
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 1px solid white;
+}
+
+.SOC{
+	margin-left: 48px;
+	margin-right: 48px;
+	display: block;
+	text-align: center;
+	float: center;
+	color: rgb(255,165,0);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+
+.Wu-Tang{
+	margin-left: 48px;
+	margin-right: 48px;
+	display: block;
+	text-align: center;
+	float: center;
+	color: rgb(255,165,0);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+.G_Thang{
+	margin-left: 48px;
+	margin-right: 48px;
+	display: block;
+	text-align: center;
+	float: center;
+	color: rgb(255,165,0);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+.twopac{
+	margin-left: 48px;
+	margin-right: 48px;
+	display: block;
+	text-align: center;
+	float: center;
+	color: rgb(255,165,0);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+.Biggie{
+	margin-left: 48px;
+	margin-right: 48px;
+	display: block;
+	text-align: center;
+	float: center;
+	color: rgb(255,165,0);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+footer {
+	margin-left: 48px;
+	margin-right: 48px;
+	display: block;
+	text-align: center;
+	float: center;
+	border: 1px solid white;
+}
+
+footer h3 {
+	display: inline;
+}
+
+footer h5 {
+	color: rgb(255,165,0);
+}
+
+
+a:link {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	color: rgb(255,165,0);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(255,165,0);
+	text-decoration: none;
+
+}
+
+a:hover {
+	background-color: red;
+	text-decoration: none;
+}
+
+
+
+
+
+

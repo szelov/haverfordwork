@@ -6,5 +6,7 @@ urlpatterns = [
     url(r'^about/$', views.about_page, name='about_page'),
     url(r'^scottie/$', views.scottie_page, name='scottie_page'),
     url(r'^alex/$', views.alex_page, name='alex_page'),
-    url(r'^payton/$', views.payton_page, name='payton_page')
+    url(r'^payton/$', views.payton_page, name='payton_page'),
+    url(r'^oldschoolrap/$', views.alex_old_rap, name='alex_old_rap'),
+    url(r'^comingsoon/$', views.coming_soon, name='coming_soon')
 ]

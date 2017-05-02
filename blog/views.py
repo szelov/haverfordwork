@@ -17,3 +17,9 @@ def alex_page(request):
 
 def payton_page(request):
     return render(request, 'blog/payton_page.html', {})
+
+def alex_old_rap(request):
+	return render(request, 'blog/alex_old_rap.html', {})
+
+def coming_soon(request):
+	return render(request, 'blog/coming_soon.html', {})

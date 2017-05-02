@@ -1,0 +1,46 @@
+html{
+color: rgb(54,69,79);
+font-family: 'Josefin Sans', sans-serif;
+font-size: 18px;
+background-attachment: fixed;
+border: solid black;
+}
+
+nav {
+	display: block;
+	text-align: center;
+	float: center;
+	color: rgb(54,69,79);
+	font-size: 24px;
+    border: solid black;
+}
+
+a:link {
+	color: rgb(54,69,79);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(54,69,79);
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: red;
+	text-decoration: none;
+}
+
+nav h3 {
+	display: inline;
+	font-size: 24px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.Photo{
+    margin-left: 50px;
+    margin-right: 50px;
+}
